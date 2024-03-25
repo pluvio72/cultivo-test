@@ -7,3 +7,4 @@ which would in turn update that value in the database (database design would hav
 Extra notes: 
 would have liked to update the material UI config and extended it to be able to use those colors provided in the figma.
 only saw the page.module.css at the last minute, so i went with using the styled api from material.
+also noticed that the fonts were not quite the same as the figma however was unsure if i could add an extra library for said fonts (i know i could have used a font file but material UI has that handy font library)
