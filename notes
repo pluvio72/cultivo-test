@@ -1,0 +1,9 @@
+Extending solution:
+For sending the slack message we would just need to use a onSubmitted function which holds the value of the text and use it in turn to send an API call the slack endpoint which sends messages.
+I looked a little into it and it would involve more setup than I have time for. The second part of tracking the banner state would involve sending an API call to a server we own with the USER_ID BANNER_ID and BANNER_STATE
+which would in turn update that value in the database (database design would have to be considered as well). On page load we would send an API call to retrieve this banner state and set it as loading until that value is retrieved using lazy loading.
+
+
+Extra notes: 
+would have liked to update the material UI config and extended it to be able to use those colors provided in the figma.
+only saw the page.module.css at the last minute, so i went with using the styled api from material.
